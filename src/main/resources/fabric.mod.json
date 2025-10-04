@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "safe-ghast",
+	"version": "${version}",
+	"name": "Safe Ghast",
+	"description": "Make ghast no longer shoot fireballs.",
+	"authors": [
+		"MeteorOfTime"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/safe-ghast/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mshower.ghast.SafeGhast"
+		]
+	},
+	"mixins": [
+		"safe-ghast.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

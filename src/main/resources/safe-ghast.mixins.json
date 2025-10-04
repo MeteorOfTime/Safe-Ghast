@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "mshower.ghast.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "GhastEntityMixin",
+        "MobEntityAccessor"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+	}
+}
